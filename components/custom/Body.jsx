@@ -12,7 +12,7 @@ const Body = () => {
             setDisplayedText(fullText.slice(0, current + 1));
             current++;
             if (current === fullText.length) clearInterval(interval);
-        }, 10);
+        }, 60);
         return () => clearInterval(interval);
     }, []);
 
@@ -27,7 +27,7 @@ const Body = () => {
             </div>
             {/* Overview Images Section */}
             <div className='flex flex-wrap justify-center gap-6 mt-10'>
-                <img src='/editor1.png' alt='Template Editor Overview 1' className='rounded-lg shadow-md w-100 h-70 object-cover' />
+                <img src='/overview.png' alt='Template Editor Overview 1' className='rounded-lg shadow-md w-250 h-120 object-cover' />
             </div>
         </div>
     )
