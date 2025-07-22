@@ -1,8 +1,9 @@
+
 import React from "react";
 
 const footerStyle = {
   width: "100%",
-  padding: "1rem 0 0 0",
+  padding: "1rem 0b 0 0",
   background: "linear-gradient(90deg, violet 0%, purple 100%)",
   color: "#fff",
   borderTop: "none",
