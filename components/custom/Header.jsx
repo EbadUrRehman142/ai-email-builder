@@ -68,9 +68,10 @@ const Header = () => {
             </>
           ) : (
             <>
-            <p className="text-gray-700" >
-              Welcome, {username || 'User'}!
-            </p>
+            <p className="text-1xl font-extrabold bg-gradient-to-r from-fuchsia-500 via-pink-500 to-purple-500 text-transparent bg-clip-text drop-shadow-lg px-4 py-2 rounded-lg flex items-center gap-2 animate-fade-in">
+  <span role="img" aria-label="wave">👋</span>
+  Welcome, {username || 'User'}!
+</p>
               <Link href="/dashboard">
               <img
                   src={avatarUrl || '/logo.svg'}

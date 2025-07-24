@@ -1,7 +1,7 @@
 'use client'
 import React, { useState, useEffect } from 'react'
 import { Button } from '../ui/button'
-
+import Link from 'next/link'
 const features = [
     {
         icon: '🧠',
@@ -81,7 +81,10 @@ const Body = () => {
                 Build better emails, faster. This AI-powered tool turns natural language into structured, styled email templates instantly.
             </p>
             <div className='flex gap-6 mt-6'>
+                <Link href="/landing">
                 <Button size="lg" className="text-lg px-8 py-4 shadow-lg">Get Started</Button>
+                </Link>
+                
                 <Button variant={'outline'} size="lg" className="text-lg px-8 py-4">Try Demo</Button>
             </div>
             {/* Feature Highlights */}
